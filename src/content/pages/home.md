@@ -1,4 +1,6 @@
 ---
-title: "Accueil "
+title: Accueil
 ---
-![oie](/uploads/capture_d_écran_du_2025-12-28_11-15-10-removebg-preview.png "Une gravure")
+
+Bienvenue sur le site ✨  
+Ce texte est modifiable depuis l’admin.

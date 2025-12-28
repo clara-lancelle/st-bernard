@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: git@github.com:clara-lancelle/st-bernard.git
+  repo: clara-lancelle/st-bernard
   branch: main
 
 media_folder: "public/uploads"
