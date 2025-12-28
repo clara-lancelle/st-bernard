@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: git@github.com:clara-lancelle/st-bernard.git
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Accueil"
+        name: "home"
+        file: "src/content/pages/home.md"
+        fields:
+          - { label: "Titre", name: "title", widget: "string" }
+          - { label: "Contenu", name: "body", widget: "markdown" }
+
+      - label: "À propos"
+        name: "about"
+        file: "src/content/pages/about.md"
+        fields:
+          - { label: "Titre", name: "title", widget: "string" }
+          - { label: "Contenu", name: "body", widget: "markdown" }
